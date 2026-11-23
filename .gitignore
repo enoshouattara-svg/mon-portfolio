@@ -1,0 +1,19 @@
+# Fichier généré par figma-plugin/build.py (contient la photo encodée)
+figma-plugin/code.js
+
+# Fichiers système
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Présentation (fichier lourd, gardé hors du dépôt)
+*.pptx
+~$*
+
+node_modules/
+presentation/images/
+presentation/rendu/
+presentation/rendu5/
+
+# Presentation : gardee sur le PC, jamais sur GitHub
+presentation/

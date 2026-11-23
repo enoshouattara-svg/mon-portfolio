@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Enosh Ouattara — Portfolio</title>
+  <meta name="description" content="Portfolio d'Enosh Jean-Ange Yerafiala Ouattara, étudiant en génie logiciel à Abidjan.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav" id="haut">
+    <a class="logo" href="#haut" aria-label="Retour en haut"><span class="logo__mark">EO</span><span class="logo__txt">portfolio</span></a>
+    <nav class="nav__links" aria-label="Navigation principale">
+      <a href="#a-propos">À propos</a>
+      <a href="#competences">Compétences</a>
+      <a href="#projets">Projets</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn--primary nav__cta" href="#contact">Me contacter <span aria-hidden="true">→</span></a>
+    <button class="nav__burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  </header>
+
+  <div class="menu" id="menu" hidden>
+    <a href="#a-propos"><span>01</span>À propos</a>
+    <a href="#competences"><span>02</span>Compétences</a>
+    <a href="#projets"><span>03</span>Projets</a>
+    <a href="#parcours"><span>04</span>Parcours</a>
+    <a href="#contact"><span>05</span>Contact</a>
+    <a class="btn btn--primary menu__cta" href="#contact">Me contacter <span aria-hidden="true">→</span></a>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="glow glow--hero" aria-hidden="true"></div>
+      <div class="hero__text">
+        <p class="eyebrow">Étudiant en L2 Génie Logiciel — Abidjan, Côte d’Ivoire</p>
+        <h1 class="hero__name">Enosh Jean-Ange Yerafiala <em>Ouattara</em></h1>
+        <p class="hero__role">Étudiant en génie logiciel · Développeur en formation</p>
+        <p class="hero__pitch">Développeur en devenir, orienté projets et solutions numériques. J’apprends en construisant : exercices de cours, applications et sites pour de vrais clients.</p>
+        <div class="hero__btns">
+          <a class="btn btn--primary" href="#projets">Voir mes projets <span aria-hidden="true">→</span></a>
+          <a class="btn btn--ghost" href="#contact">Me contacter <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <figure class="hero__photo">
+        <img src="assets/photo-enosh.jpg" alt="Portrait d’Enosh Ouattara" width="380" height="460">
+        <figcaption class="pill"><i></i>Licence 2 · IIT Abidjan</figcaption>
+      </figure>
+    </section>
+
+    <div class="band" aria-label="Langages pratiqués">
+      <p>Python <b>✦</b> Java <b>✦</b> HTML / CSS <b>✦</b> JavaScript <b>✦</b> SQL <b>✦</b> Selenium <b>✦</b> Flutter / Dart <b>✦</b> C</p>
+    </div>
+
+    <section class="section" id="a-propos">
+      <div class="cols">
+        <header class="head head--narrow">
+          <p class="eyebrow">01 — À propos</p>
+          <h2>Apprendre en construisant.</h2>
+        </header>
+        <div class="stack">
+          <p class="lead">Je suis étudiant en deuxième année de Licence Génie Logiciel (Computer Science) à l’Institut Ivoirien de Technologie, à Abidjan. J’apprends en réalisant des projets concrets : exercices de cours, applications, et sites pour de vraies marques.</p>
+          <p class="lead muted">J’utilise aussi l’intelligence artificielle comme outil de travail, et je l’indique clairement sur chaque projet concerné.</p>
+          <blockquote class="quote">
+            <p class="eyebrow">Mon objectif</p>
+            <p>« Construire des solutions numériques utiles, modernes et impactantes tout en devenant un développeur reconnu pour sa créativité, sa rigueur et sa capacité à résoudre des problèmes complexes. »</p>
+          </blockquote>
+          <ul class="infos">
+            <li><span class="eyebrow muted">Formation</span>L2 Génie Logiciel · IIT</li>
+            <li><span class="eyebrow muted">Ville</span>Abidjan, Côte d’Ivoire</li>
+            <li><span class="eyebrow muted">Langues</span>Français courant · Anglais (notions)</li>
+          </ul>
+          <div>
+            <p class="eyebrow muted">Qualités</p>
+            <ul class="chips"><li>Apprentissage rapide</li><li>Créativité</li><li>Discipline</li><li>Résolution de problèmes</li><li>Travail en équipe</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="competences">
+      <header class="head">
+        <p class="eyebrow">02 — Compétences</p>
+        <h2>Ce que je sais faire — honnêtement.</h2>
+        <p class="lead muted">Chaque compétence a un niveau réel. Les outils découverts avec l’aide de l’IA sont indiqués à part.</p>
+      </header>
+      <div class="levels">
+        <article class="level"><div class="level__top"><h3>Pratique</h3><span class="gauge" data-n="4" aria-label="Niveau 4 sur 4"><i></i><i></i><i></i><i></i></span></div><p class="small muted">Je m’en sers seul sur des projets.</p><ul class="chips"><li>Python</li><li>Programmation orientée objet</li></ul></article>
+        <article class="level"><div class="level__top"><h3>En cours</h3><span class="gauge" data-n="3" aria-label="Niveau 3 sur 4"><i></i><i></i><i></i><i></i></span></div><p class="small muted">Je pratique régulièrement et je progresse.</p><ul class="chips"><li>Java</li><li>SQL / MySQL</li><li>HTML / CSS</li><li>Selenium &amp; scraping web</li></ul></article>
+        <article class="level"><div class="level__top"><h3>Bases</h3><span class="gauge" data-n="2" aria-label="Niveau 2 sur 4"><i></i><i></i><i></i><i></i></span></div><p class="small muted">Je connais les notions essentielles.</p><ul class="chips"><li>JavaScript</li><li>Git &amp; GitHub</li><li>CSV · pandas · Requests</li><li>Flutter / Dart</li><li>Langage C</li></ul></article>
+        <article class="level"><div class="level__top"><h3>Découverte</h3><span class="gauge" data-n="1" aria-label="Niveau 1 sur 4"><i></i><i></i><i></i><i></i></span></div><p class="small muted">Utilisé sur de vrais projets, avec l’aide de l’IA.</p><ul class="chips"><li>Django</li><li>React + GSAP</li><li>Next.js</li><li>Supabase</li><li>API Claude</li></ul></article>
+        <article class="level level--tools"><h3>Outils</h3><ul class="chips"><li>VS Code</li><li>Android Studio</li><li>Word · PowerPoint · Excel</li><li>Canva</li></ul></article>
+      </div>
+    </section>
+
+    <section class="section" id="projets">
+      <header class="head">
+        <p class="eyebrow">03 — Projets</p>
+        <h2>Projets</h2>
+        <p class="lead muted">Dix projets, avec leur statut réel : terminé ou en cours.</p>
+      </header>
+      <div class="filters" role="group" aria-label="Filtrer les projets">
+        <button class="filter is-active" data-f="tous" aria-pressed="true">Tous · 10</button>
+        <button class="filter" data-f="termine" aria-pressed="false">Terminés · 7</button>
+        <button class="filter" data-f="encours" aria-pressed="false">En cours · 3</button>
+      </div>
+      <div class="cards">
+        <article class="card" data-s="termine">
+          <div class="card__cover"><span class="path">~/projets/boutique</span><span class="file">nova-spees/<i></i></span></div>
+          <div class="card__body">
+            <div class="badges"><span class="badge badge--done">Terminé</span><span class="badge badge--ai">✦ Avec l’aide de l’IA</span></div>
+            <p class="eyebrow muted">Site pour une marque</p>
+            <h3>NOVA SPEES — boutique de casquettes</h3>
+            <p class="small muted">Boutique en ligne animée pour une marque de casquettes : 7 coloris, panier et commande par WhatsApp.</p>
+            <ul class="tags"><li>React</li><li>Vite</li><li>GSAP</li><li>WebGL</li></ul>
+            <p class="card__foot">Pas encore en ligne <span aria-hidden="true">↗</span></p>
+          </div>
+        </article>
+        <article class="card" data-s="termine">
+          <div class="card__cover"><span class="path">~/projets/ivoire-services</span><span class="file">main.dart<i></i></span></div>
+          <div class="card__body">
+            <div class="badges"><span class="badge badge--done">Terminé</span></div>
+            <p class="eyebrow muted">Projet d’école · Ivoire Software SARL</p>
+            <h3>Ivoire Services — application mobile</h3>
+            <p class="small muted">Application mobile pour Android et iOS : inscription et connexion, accueil, profil utilisateur, au moins 10 écrans avec une interface moderne.</p>
+            <ul class="tags"><li>Flutter</li><li>Dart</li><li>Android</li><li>iOS</li></ul>
+            <p class="card__foot">Projet d’école <span aria-hidden="true">↗</span></p>
+          </div>
+        </article>
+        <article class="card" data-s="encours">
+          <div class="card__cover"><span class="path">~/projets/freelance</span><span class="file">generateur/<i></i></span></div>
+          <div class="card__body">
+            <div class="badges"><span class="badge badge--wip">En cours</span><span class="badge badge--ai">✦ Avec l’aide de l’IA</span></div>
+            <p class="eyebrow muted">Mission freelance</p>
+            <h3>Générateur de contenus marketing</h3>
+            <p class="small muted">Outil web qui transforme des transcriptions d’appels en contenus marketing, pour une agence au Québec. Découpé en 6 étapes hebdomadaires.</p>
+            <ul class="tags"><li>Next.js</li><li>Supabase</li><li>API Claude</li></ul>
+            <p class="card__foot">Client confidentiel <span aria-hidden="true">↗</span></p>
+          </div>
+        </article>
+        <article class="card" data-s="encours">
+          <div class="card__cover"><span class="path">~/projets/foodstock-pro</span><span class="file">foodstock/<i></i></span></div>
+          <div class="card__body">
+            <div class="badges"><span class="badge badge--wip">En cours</span><span class="badge badge--ai">✦ Avec l’aide de l’IA</span></div>
+            <p class="eyebrow muted">Projet personnel</p>
+            <h3>FoodStock Pro</h3>
+            <p class="small muted">Logiciel en ligne de gestion des stocks et des achats pour les restaurants en Côte d’Ivoire ; chaque restaurant a son espace séparé.</p>
+            <ul class="tags"><li>Python</li><li>Django</li><li>SQLite</li></ul>
+            <p class="card__foot">En développement <span aria-hidden="true">↗</span></p>
+          </div>
+        </article>
+        <article class="card" data-s="termine">
+          <div class="card__cover"><span class="path">~/projets/maison-connectee</span><span class="file">MaisonConnectee.java<i></i></span></div>
+          <div class="card__body">
+            <div class="badges"><span class="badge badge--done">Terminé</span><span class="badge badge--ai">✦ Avec l’aide de l’IA</span></div>
+            <p class="eyebrow muted">Projet scolaire · réalisé seul</p>
+            <h3>Maison Connectée</h3>
+            <p class="small muted">Application de bureau en Java pour une maison connectée, reliée à une base de données MySQL. Présentée en soutenance.</p>
+            <ul class="tags"><li>Java</li><li>JavaFX</li><li>MySQL</li><li>POO</li></ul>
+            <p class="card__foot">Présenté en soutenance <span aria-hidden="true">↗</span></p>
+          </div>
+        </article>
+        <article class="card" data-s="termine">
+          <div class="card__cover"><span class="path">~/projets/gestion-can</span><span class="file">can.py<i></i></span></div>
+          <div class="card__body">
+            <div class="badges"><span class="badge badge--done">Terminé</span></div>
+            <p class="eyebrow muted">Programme Python</p>
+            <h3>Gestion d’une compétition CAN</h3>
+            <p class="small muted">Programme pour gérer un tournoi : inscription des équipes, poules, matchs du premier tour, classements, second tour jusqu’au vainqueur. Données sauvegardées en JSON.</p>
+            <ul class="tags"><li>Python</li><li>POO</li><li>JSON</li></ul>
+            <p class="card__foot">Programme en console <span aria-hidden="true">↗</span></p>
+          </div>
+        </article>
+        <article class="card" data-s="termine">
+          <div class="card__cover"><span class="path">~/projets/scraper-amazon</span><span class="file">scraper.py<i></i></span></div>
+          <div class="card__body">
+            <div class="badges"><span class="badge badge--done">Terminé</span></div>
+            <p class="eyebrow muted">Projet académique</p>
+            <h3>Scraper Amazon</h3>
+            <p class="small muted">Récupérer automatiquement le nom, le prix, la note, le nombre d’avis et le lien de produits Amazon, sur des pages qui se chargent dynamiquement.</p>
+            <ul class="tags"><li>Python</li><li>Selenium</li><li>CSV</li><li>pandas</li></ul>
+            <p class="card__foot">Code privé · disponible sur demande <span aria-hidden="true">↗</span></p>
+          </div>
+        </article>
+        <article class="card" data-s="encours">
+          <div class="card__cover"><span class="path">~/projets/delice-ivoirien</span><span class="file">index.html<i></i></span></div>
+          <div class="card__body">
+            <div class="badges"><span class="badge badge--wip">En cours</span></div>
+            <p class="eyebrow muted">Site web de restaurant</p>
+            <h3>Le Délice Ivoirien</h3>
+            <p class="small muted">Site vitrine en 4 pages pour un restaurant : accueil, à propos, services et contact. Prochaines étapes : réservations, connexion, administration et base de données.</p>
+            <ul class="tags"><li>HTML</li><li>CSS</li></ul>
+            <p class="card__foot">4 pages réalisées <span aria-hidden="true">↗</span></p>
+          </div>
+        </article>
+        <article class="card" data-s="termine">
+          <div class="card__cover"><span class="path">~/projets/comptoir-ivoire</span><span class="file">produit.py<i></i></span></div>
+          <div class="card__body">
+            <div class="badges"><span class="badge badge--done">Terminé</span></div>
+            <p class="eyebrow muted">Exercice académique</p>
+            <h3>Le stock du Comptoir Ivoire</h3>
+            <p class="small muted">Modéliser le stock d’un grossiste ivoirien : produits, prix hors taxe en FCFA, TVA de 18 % et gestion des erreurs.</p>
+            <ul class="tags"><li>Python</li><li>POO</li><li>Exceptions</li></ul>
+            <p class="card__foot">Exercice de cours <span aria-hidden="true">↗</span></p>
+          </div>
+        </article>
+        <article class="card" data-s="termine">
+          <div class="card__cover"><span class="path">~/projets/calculatrice</span><span class="file">calculatrice.c<i></i></span></div>
+          <div class="card__body">
+            <div class="badges"><span class="badge badge--done">Terminé</span></div>
+            <p class="eyebrow muted">Programme en C</p>
+            <h3>Calculatrice scientifique</h3>
+            <p class="small muted">Calculatrice scientifique écrite en langage C, développée avec Code::Blocks.</p>
+            <ul class="tags"><li>C</li><li>Code::Blocks</li></ul>
+            <p class="card__foot">Programme en C <span aria-hidden="true">↗</span></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="parcours">
+      <div class="cols">
+        <header class="head head--narrow">
+          <p class="eyebrow">04 — Parcours</p>
+          <h2>Mon parcours.</h2>
+          <p class="lead muted">De l’école à la Licence 2 : les étapes importantes.</p>
+        </header>
+        <ol class="timeline">
+          <li class="is-current"><p class="eyebrow">2026 — 2027 <span class="badge badge--wip">En cours</span></p><h3>Licence 2 Génie Logiciel (Computer Science)</h3><p class="muted">Institut Ivoirien de Technologie · Abidjan</p></li>
+          <li><p class="eyebrow muted">2025 — 2026</p><h3>Licence 1 Génie Logiciel</h3><p class="muted">Institut Ivoirien de Technologie · Abidjan</p></li>
+          <li><p class="eyebrow muted">2024 — 2025</p><h3>Baccalauréat</h3><p class="muted">Côte d’Ivoire</p></li>
+          <li><p class="eyebrow muted">2021 — 2022</p><h3>BEPC</h3><p class="muted">Côte d’Ivoire</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="contact">
+        <div class="glow glow--contact" aria-hidden="true"></div>
+        <header class="head">
+          <p class="eyebrow">05 — Contact</p>
+          <h2>Une question, une idée de projet ?</h2>
+          <p class="lead muted">Écrivez-moi : je réponds par e-mail ou sur WhatsApp.</p>
+        </header>
+        <ul class="ways">
+          <li><a href="mailto:enoshouattara@gmail.com"><span class="ico">@</span><span><small class="eyebrow muted">E-mail</small>enoshouattara@gmail.com</span><b aria-hidden="true">↗</b></a></li>
+          <li><a href="https://wa.me/2250788271231" target="_blank" rel="noopener"><span class="ico">✆</span><span><small class="eyebrow muted">WhatsApp</small>+225 07 88 27 12 31</span><b aria-hidden="true">↗</b></a></li>
+          <li><a href="https://github.com/enoshouattara-svg" target="_blank" rel="noopener"><span class="ico">&lt;/&gt;</span><span><small class="eyebrow muted">GitHub</small>github.com/enoshouattara-svg</span><b aria-hidden="true">↗</b></a></li>
+          <li><a href="https://www.linkedin.com/in/enosh-ouattara-2708643b0/" target="_blank" rel="noopener"><span class="ico">in</span><span><small class="eyebrow muted">LinkedIn</small>linkedin.com/in/enosh-ouattara-2708643b0</span><b aria-hidden="true">↗</b></a></li>
+        </ul>
+        <div class="hero__btns">
+          <a class="btn btn--primary" href="mailto:enoshouattara@gmail.com">Écrire un e-mail <span aria-hidden="true">→</span></a>
+          <a class="btn btn--ghost" href="https://wa.me/2250788271231" target="_blank" rel="noopener">Discuter sur WhatsApp <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__sign">
+      <a class="logo" href="#haut"><span class="logo__mark">EO</span><span class="logo__txt">portfolio</span></a>
+      <p class="footer__name">Enosh Jean-Ange Yerafiala Ouattara</p>
+      <p class="small muted">© 2026 · Conçu dans Canva, codé en HTML, CSS et JavaScript.</p>
+    </div>
+    <nav class="footer__links" aria-label="Pied de page">
+      <a href="#a-propos">À propos</a><a href="#competences">Compétences</a><a href="#projets">Projets</a><a href="#parcours">Parcours</a><a href="#contact">Contact</a><a class="accent" href="#haut">Haut de page ↑</a>
+    </nav>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
